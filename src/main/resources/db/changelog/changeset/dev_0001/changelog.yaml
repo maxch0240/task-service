@@ -3,12 +3,10 @@ databaseChangeLog:
       id: dev_0001
       author: Chertenkov
   - include:
-      file: classpath:db/changelog/changeset/dev_0001/DDL/001_create_table_roles.sql
+      file: classpath:db/changelog/changeset/dev_0001/DDL/001_create_table_users.sql
   - include:
-      file: classpath:db/changelog/changeset/dev_0001/DDL/002_create_table_users.sql
-
-
-  - include:
-      file: classpath:db/changelog/changeset/dev_0001/DML/002_insert_data_roles.sql
+      file: classpath:db/changelog/changeset/dev_0001/DDL/002_create_table_tasks.sql
   - include:
       file: classpath:db/changelog/changeset/dev_0001/DML/001_insert_data_users.sql
+  - include:
+      file: classpath:db/changelog/changeset/dev_0001/DML/002_insert_data_tasks.sql
